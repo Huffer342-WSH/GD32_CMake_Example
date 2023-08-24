@@ -8,7 +8,26 @@
 
 一个串口收发简单例子。
 
-[从零开始搭建工程](/doc//从零开始搭建工程.md)
+[从零开始搭建工程看这里](/doc//从零开始搭建工程.md)
+
+
+1. [GD32 CMake example](#gd32-cmake-example)
+   1. [使用到的工具](#使用到的工具)
+   2. [编译与烧录](#编译与烧录)
+      1. [命令行](#命令行)
+      2. [VSCode](#vscode)
+   3. [调试](#调试)
+      1. [配合VSCode的marus25.cortex-debug插件实现调试功能](#配合vscode的marus25cortex-debug插件实现调试功能)
+   4. [RTT使用方法](#rtt使用方法)
+      1. [marus25.cortex-debug](#marus25cortex-debug)
+      2. [手动连接](#手动连接)
+   5. [注意事项](#注意事项)
+      1. [交叉编译工具链设置](#交叉编译工具链设置)
+      2. [链接脚本](#链接脚本)
+      3. [启动文件](#启动文件)
+   6. [从零开始搭建工程](#从零开始搭建工程)
+
+
 ## 使用到的工具
 
 交叉编译器：[gcc-arm-none-eabi-10.3-2021.10-win32](https://armkeil.blob.core.windows.net/developer/Files/downloads/gnu-rm/10.3-2021.10/gcc-arm-none-eabi-10.3-2021.10-win32.zip)
@@ -31,8 +50,8 @@
 准备好以上工具后将可执行文件所在目录的路径添加都PATH(Path)环境变量
 然后在一下文件中修改路径
 - .vscode\GD32_CMake_Example.code-workspace（必须改）
--  cmake\arm-none-eabi-gcc.cmake （可选，环境变量添加了就不用指定绝对路径了）
--  Core\CMakeLists.txt(该文件末尾将cmake install 指定成了使用openocd烧录)
+- cmake\arm-none-eabi-gcc.cmake （可选，环境变量添加了就不用指定绝对路径了）
+- Core\CMakeLists.txt(该文件末尾将cmake install 指定成了使用openocd烧录)
 
 ### 命令行
 
@@ -60,6 +79,108 @@ cmake --install ./build
 
 ![Alt text](/doc/images/image-3.png)
 
+烧录程序后，将串口连接到电脑打开串口工具，就可以看到运行结果了
+
+![Alt text](/doc/images/uart%20test.png)
+
+## 调试
+
+### 配合VSCode的marus25.cortex-debug插件实现调试功能
+
+1. 安装marus25.cortex-debug插件
+2. 在工作区配置文件.code-workspace或者文件夹启动配置文件launch.json中添加调试配置
+```
+{
+	"cwd": "${workspaceRoot}",
+	"executable": "${workspaceRoot}/bin/Debug/GD32_CMake_Example.elf",
+	"name": "Cortex-Debug",
+	"request": "launch",
+	"type": "cortex-debug",
+	"servertype": "openocd",
+	"configFiles": [
+		"interface/cmsis-dap.cfg",
+		"target/gd32f310.cfg",
+	],
+	"svdFile": "${workspaceRoot}/OpenOCD/GD32F3x0.svd",
+	"searchDir": [
+		"E:/SDK-Win/OpenOCD/openocd/scripts/"
+	],
+	"runToEntryPoint": "main",
+	"showDevDebugOutput": "none",
+	"rttConfig": {
+		"enabled": true,
+		"polling_interval": 1,
+		"address": "auto",
+		"decoders": [
+			{
+				"label": "",
+				"port": 0,
+				"type": "console"
+			},
+		]
+	}
+},
+```
+
+添加后可以在VSCode左侧边栏的```Run and Debug```选项卡看到刚添加的调试配置
+![Alt text](doc\images\左侧边栏.png)
+
+4. 连接调试器，点击运行
+   
+
+![Alt text](doc\images\debug.png)   
+
+## RTT使用方法
+下文讲述基于openocd和cmsis-dap的SEGGER RTT使用方法，jlink用户使用jlink RTT view即可
+
+### marus25.cortex-debug
+在使用vscode插件marus25.cortex-debug时，在配置文件中添加rtt相关配置，就会在调试时自动链接segger rtt。
+```
+"rttConfig": {
+		"enabled": true,
+		"polling_interval": 1,
+		"address": "auto",
+		"decoders": [
+			{
+				"label": "",
+				"port": 0,
+				"type": "console"
+			},
+		]
+	}
+```
+### 手动连接
+编写openocd配置文件 OpenOCD\Start_RTT.cfg,内容中除了普通的配置接口和设备，还要增加rtt相关设置。
+```
+source [find interface/cmsis-dap.cfg]
+transport select swd
+cmsis_dap_backend  usb_bulk
+source [find target/gd32f310.cfg]
+
+init
+
+rtt setup 0x20000000 8192 "SEGGER RTT"
+rtt polling_interval 1
+rtt start
+rtt server start 9990 0
+rtt server start 9991 1
+rtt server start 9992 2
+reset init
+resume
+```
+
+上文中`rtt server start 9990 0`就代表将RTT通道一通过端口为9990的TCP serve转发。
+
+连接单片机和调试器，使用openocd指定该配置文件
+```
+openocd -f .\OpenOCD\Start_RTT.cfg
+```
+openocd输出如下
+![Alt text](doc\images\openocd.png)
+
+然后打开串口和TCP工具，在串口输入`RTT test`，就可以运行RTT测试
+
+![Alt text](doc\images\rtt.png)
 ## 注意事项
 
 ### 交叉编译工具链设置
