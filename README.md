@@ -49,9 +49,9 @@
 首先下载上文中提到的gcc-arm-none-eabi和openocd，构建器使用make或者ninja都可以，工程里的源文件多了以后ninja启动速度会更快一点。
 准备好以上工具后将可执行文件所在目录的路径添加都PATH(Path)环境变量
 然后在一下文件中修改路径
-- .vscode\GD32_CMake_Example.code-workspace（必须改）
-- cmake\arm-none-eabi-gcc.cmake （可选，环境变量添加了就不用指定绝对路径了）
-- Core\CMakeLists.txt(该文件末尾将cmake install 指定成了使用openocd烧录)
+- .vscode/GD32_CMake_Example.code-workspace（必须改）
+- cmake/arm-none-eabi-gcc.cmake （可选，环境变量添加了就不用指定绝对路径了）
+- Core/CMakeLists.txt(该文件末尾将cmake install 指定成了使用openocd烧录)
 
 ### 命令行
 
@@ -123,12 +123,12 @@ cmake --install ./build
 ```
 
 添加后可以在VSCode左侧边栏的```Run and Debug```选项卡看到刚添加的调试配置
-![Alt text](doc\images\左侧边栏.png)
+![Alt text](doc/images/左侧边栏.png)
 
 4. 连接调试器，点击运行
    
 
-![Alt text](doc\images\debug.png)   
+![Alt text](doc/images/debug.png)   
 
 ## RTT使用方法
 下文讲述基于openocd和cmsis-dap的SEGGER RTT使用方法，jlink用户使用jlink RTT view即可
@@ -150,7 +150,7 @@ cmake --install ./build
 	}
 ```
 ### 手动连接
-编写openocd配置文件 OpenOCD\Start_RTT.cfg,内容中除了普通的配置接口和设备，还要增加rtt相关设置。
+编写openocd配置文件 OpenOCD/Start_RTT.cfg,内容中除了普通的配置接口和设备，还要增加rtt相关设置。
 ```
 source [find interface/cmsis-dap.cfg]
 transport select swd
@@ -173,19 +173,19 @@ resume
 
 连接单片机和调试器，使用openocd指定该配置文件
 ```
-openocd -f .\OpenOCD\Start_RTT.cfg
+openocd -f ./OpenOCD/Start_RTT.cfg
 ```
 openocd输出如下
-![Alt text](doc\images\openocd.png)
+![Alt text](doc/images/openocd.png)
 
 然后打开串口和TCP工具，在串口输入`RTT test`，就可以运行RTT测试
 
-![Alt text](doc\images\rtt.png)
+![Alt text](doc/images/rtt.png)
 ## 注意事项
 
 ### 交叉编译工具链设置
 cmake通过 -DCMAKE_TOOLCHAIN_FILE 参数指定工具链的配置文件。
-cmake\arm-none-eabi-gcc.cmake文件中是交叉工具链的配置
+cmake/arm-none-eabi-gcc.cmake文件中是交叉工具链的配置
 
 ### 链接脚本
 
@@ -227,7 +227,7 @@ MEMORY
 **RAM**和**FLASH**的地址和大小可以从用户手册中找到，如 GD32F3x0_User_Manual_CN_Rev2.7.pdf>1.系统及存储器架构>1.3存储器映射
 
 
-![image-20230824143008529](doc\images\image-20230824143008529.png)
+![image-20230824143008529](doc/images/image-20230824143008529.png)
 
 </p>
 </details>
@@ -289,7 +289,7 @@ SECTIONS{
 在启动文件startup_gd32f3x0.s中，包含了复位服务函数Reset_Handler以及中断向量表，这个文件一般用汇编编写，但也有使用c语言编写的。
 汇编语言中通过.section语句可以指定数据段或者代码段的存储位置。在链接文件中我们定义了.isr_vector段，位于FLASH中最开头的位置，在启动文件中通过.section	.isr_vector,"a",%progbits将向量表指定到这个段，从而实现了将向量表链接到我们想要的位置。
 
-向量表中的内容由单片机厂商决定，可以在用户手册中找到向量地址的定义，比如我使用的GD32F3x0，可以在```GD32F3x0_User_Manual_CN_Rev2.7.pdf>6.中断/事件控制器（EXTI）> 6.3功能描述``` 中找到向量表的描述。在官方提供的固件库中也有适用于Keil和IAR的启动文件，在路径```Drivers\CMSIS\GD\GD32F3x0\Source```下，但是我们要使用的是GNU工具链汇编风格的启动文件，可以依据这两个文件修改得到
+向量表中的内容由单片机厂商决定，可以在用户手册中找到向量地址的定义，比如我使用的GD32F3x0，可以在```GD32F3x0_User_Manual_CN_Rev2.7.pdf>6.中断/事件控制器（EXTI）> 6.3功能描述``` 中找到向量表的描述。在官方提供的固件库中也有适用于Keil和IAR的启动文件，在路径```Drivers/CMSIS/GD/GD32F3x0/Source```下，但是我们要使用的是GNU工具链汇编风格的启动文件，可以依据这两个文件修改得到
 
 
 ## 从零开始搭建工程
