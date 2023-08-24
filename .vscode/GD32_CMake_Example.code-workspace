@@ -122,15 +122,19 @@
 		"configurations": [
 			{
 				"cwd": "${workspaceRoot}",
+				//可执行文件的位置
 				"executable": "${workspaceRoot}/bin/Debug/GD32_CMake_Example.elf",
 				"name": "Cortex-Debug",
 				"request": "launch",
+				//标识是一个marus25.cortex-debug插件的调试配置
 				"type": "cortex-debug",
 				"servertype": "openocd",
+				//openocd使用的配置文件，我使用的是cmsis-dap调试器，jlink调试器等需要修改
 				"configFiles": [
 					"interface/cmsis-dap.cfg",
 					"target/gd32f310.cfg",
 				],
+				//CMSIS-SVD(System View Description)文件路径,里面记录了寄存器的名字与地址，方便调试的时候查看寄存器
 				"svdFile": "${workspaceRoot}/OpenOCD/GD32F3x0.svd",
 				"searchDir": [
 					"E:/SDK-Win/OpenOCD/openocd/scripts/"
@@ -147,12 +151,6 @@
 							"port": 0,
 							"type": "console"
 						},
-						// {
-						// 	"label": "",
-						// 	"port": 1,
-						// 	"type": "binary",
-						// 	"timestamp": true,
-						// }
 					]
 				}
 			},
