@@ -1,0 +1,3 @@
+add_subdirectory(CMSIS)
+add_subdirectory(GD32F3x0_standard_peripheral)
+add_subdirectory(RTT)

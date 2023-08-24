@@ -1,0 +1,197 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"extensions.ignoreRecommendations": false,
+		"cmake.generator": "Ninja", //Unix Makefiles
+		"cmake.configureArgs": [
+			"-DCMAKE_TOOLCHAIN_FILE=cmake/arm-none-eabi-gcc.cmake"
+		],
+		"cmake.saveBeforeBuild": true,
+		"cmake.buildBeforeRun": true,
+		"cmake.parallelJobs": 12,
+		"cmake.debugConfig": {
+			"stopAtEntry": true,
+			"miDebuggerPath": "E:/SDK-Win/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gdb.exe",
+			"args": [
+				"--interpreter=mi2"
+			],
+			// "symbolSearchPath": "${workspaceRoot}/GD32F3x0.svd",
+			"setupCommands": [
+				{
+					"description": "连接到远程gdbserver",
+					"text": "target extended-remote 127.0.0.1:3333",
+				}
+			],
+			"MIMode": "gdb",
+		},
+	},
+	"tasks": {
+		"version": "2.0.0",
+		"tasks": [
+			{
+				"options": {
+					"cwd": "${workspaceFolder}"
+				},
+				"label": "烧录",
+				"command": "openocd",
+				"args": [
+					"-f",
+					"${workspaceFolder}/OpenOCD/openocd.cfg",
+					"-c",
+					"program ./bin/Debug/GD32_CMake_Example.elf  verify reset",
+					"-c",
+					"shutdown"
+				],
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared",
+					"showReuseMessage": false,
+					"clear": true
+				},
+				"problemMatcher": [],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				}
+			},
+			{
+				"options": {
+					"cwd": "${workspaceFolder}"
+				},
+				"label": "jlink烧录",
+				"command": "openocd",
+				"args": [
+					"-f",
+					"${workspaceFolder}/OpenOCD/openocd_jlink.cfg",
+					"-c",
+					"program ./bin/Debug/GD32_CMake_Example.elf  verify reset",
+					"-c",
+					"shutdown"
+				],
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared",
+					"showReuseMessage": false,
+					"clear": true
+				},
+				"problemMatcher": [],
+				"group": {
+					"kind": "build",
+					"isDefault": true
+				}
+			},
+			{
+				"options": {
+					"cwd": "${workspaceFolder}"
+				},
+				"label": "启动gdbserver",
+				"command": "openocd",
+				"args": [
+					"-s",
+					"E:/SDK-Win/OpenOCD/share/openocd/scripts/",
+					"-f",
+					"c:/Users/hp/.vscode/extensions/marus25.cortex-debug-1.6.7/support/openocd-helpers.tcl",
+					"-f",
+					"interface/cmsis-dap.cfg",
+					"-f",
+					"target/gd32f310.cfg"
+				],
+				"presentation": {
+					"echo": true,
+					"reveal": "always",
+					"focus": false,
+					"panel": "shared",
+					"showReuseMessage": false,
+					"clear": true
+				},
+				"problemMatcher": [],
+				"group": "build"
+			},
+		],
+	},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"cwd": "${workspaceRoot}",
+				"executable": "${workspaceRoot}/bin/Debug/GD32_CMake_Example.elf",
+				"name": "Cortex-Debug",
+				"request": "launch",
+				"type": "cortex-debug",
+				"servertype": "openocd",
+				"configFiles": [
+					"interface/cmsis-dap.cfg",
+					"target/gd32f310.cfg",
+				],
+				"svdFile": "${workspaceRoot}/OpenOCD/GD32F3x0.svd",
+				"searchDir": [
+					"E:/SDK-Win/OpenOCD/openocd/scripts/"
+				],
+				"runToEntryPoint": "main",
+				"showDevDebugOutput": "none",
+				"rttConfig": {
+					"enabled": true,
+					"polling_interval": 1,
+					"address": "auto",
+					"decoders": [
+						{
+							"label": "",
+							"port": 0,
+							"type": "console"
+						},
+						// {
+						// 	"label": "",
+						// 	"port": 1,
+						// 	"type": "binary",
+						// 	"timestamp": true,
+						// }
+					]
+				}
+			},
+			{
+				"cwd": "${workspaceRoot}",
+				"executable": "${workspaceRoot}/bin/Debug/GD32_CMake_Example.elf",
+				"name": "jlink debug",
+				"request": "launch",
+				"type": "cortex-debug",
+				"servertype": "openocd",
+				"configFiles": [
+					"${workspaceRoot}/OpenOCD/openocd_jlink.cfg",
+				],
+				"svdFile": "${workspaceRoot}/OpenOCD/GD32F3x0.svd",
+				"searchDir": [
+					"E:/SDK-Win/OpenOCD/openocd/scripts/"
+				],
+				"runToEntryPoint": "main",
+				"showDevDebugOutput": "none",
+				"rttConfig": {
+					"enabled": true,
+					"polling_interval": 1,
+					"address": "auto",
+					"decoders": [
+						{
+							"label": "",
+							"port": 0,
+							"type": "console"
+						},
+					]
+				}
+			}
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"ms-vscode.cmake-tools",
+			"ms-vscode.cpptools",
+			"marus25.cortex-debug"
+		]
+	}
+}

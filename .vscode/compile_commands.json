@@ -1,0 +1,224 @@
+[
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Core/./inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\gd32f3x0_it.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\gd32f3x0_it.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\gd32f3x0_it.c",
+  "output": "Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\gd32f3x0_it.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Core/./inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\main.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\main.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\main.c",
+  "output": "Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\main.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Core/./inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\systick.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\systick.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\systick.c",
+  "output": "Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\systick.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Core/./inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\test.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\test.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\test.c",
+  "output": "Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\test.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Core/./inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\uart.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\uart.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Core\\src\\uart.c",
+  "output": "Core\\CMakeFiles\\GD32_CMake_Example.dir\\src\\uart.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -g -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\CMSIS\\CMakeFiles\\GD32_CMake_Example_CMSIS.dir\\GD\\GD32F3x0\\Source\\GNU\\startup_gd32f3x0.s.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\CMSIS\\GD\\GD32F3x0\\Source\\GNU\\startup_gd32f3x0.s",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\CMSIS\\GD\\GD32F3x0\\Source\\GNU\\startup_gd32f3x0.s",
+  "output": "Core\\Drivers\\CMSIS\\CMakeFiles\\GD32_CMake_Example_CMSIS.dir\\GD\\GD32F3x0\\Source\\GNU\\startup_gd32f3x0.s.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\CMSIS\\CMakeFiles\\GD32_CMake_Example_CMSIS.dir\\GD\\GD32F3x0\\Source\\system_gd32f3x0.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\CMSIS\\GD\\GD32F3x0\\Source\\system_gd32f3x0.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\CMSIS\\GD\\GD32F3x0\\Source\\system_gd32f3x0.c",
+  "output": "Core\\Drivers\\CMSIS\\CMakeFiles\\GD32_CMake_Example_CMSIS.dir\\GD\\GD32F3x0\\Source\\system_gd32f3x0.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_adc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_adc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_adc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_adc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_cec.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_cec.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_cec.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_cec.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_cmp.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_cmp.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_cmp.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_cmp.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_crc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_crc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_crc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_crc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_ctc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_ctc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_ctc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_ctc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dac.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dac.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dac.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dac.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dbg.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dbg.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dbg.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dbg.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dma.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dma.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_dma.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_dma.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_exti.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_exti.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_exti.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_exti.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_fmc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_fmc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_fmc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_fmc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_fwdgt.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_fwdgt.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_fwdgt.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_fwdgt.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_gpio.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_gpio.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_gpio.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_gpio.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_i2c.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_i2c.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_i2c.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_i2c.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_misc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_misc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_misc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_misc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_pmu.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_pmu.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_pmu.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_pmu.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_rcu.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_rcu.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_rcu.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_rcu.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_rtc.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_rtc.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_rtc.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_rtc.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_spi.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_spi.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_spi.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_spi.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_syscfg.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_syscfg.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_syscfg.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_syscfg.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_timer.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_timer.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_timer.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_timer.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_tsi.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_tsi.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_tsi.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_tsi.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_usart.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_usart.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_usart.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_usart.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/. -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_wwdgt.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_wwdgt.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\GD32F3x0_standard_peripheral\\Source\\gd32f3x0_wwdgt.c",
+  "output": "Core\\Drivers\\GD32F3x0_standard_peripheral\\CMakeFiles\\GD32_CMake_Example_standard_peripherals.dir\\Source\\gd32f3x0_wwdgt.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_printf.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_printf.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_printf.c",
+  "output": "Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_printf.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_Extended.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_Extended.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_Extended.c",
+  "output": "Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_Extended.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT.c",
+  "output": "Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/RTT/. -g -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -o Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_ASM_ARMv7M.S.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_ASM_ARMv7M.S",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Drivers\\RTT\\SEGGER_RTT_ASM_ARMv7M.S",
+  "output": "Core\\Drivers\\RTT\\CMakeFiles\\GD32_CMake_Example_RTT.dir\\SEGGER_RTT_ASM_ARMv7M.S.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\printf\\printf.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\printf\\printf.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\printf\\printf.c",
+  "output": "Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\printf\\printf.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\retarget.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\retarget.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\retarget.c",
+  "output": "Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\retarget.c.obj"
+},
+{
+  "directory": "D:/Project/GD32_Project/GD32_CMake_Example/build",
+  "command": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe -DGD32F310 -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/GD32F3x0_standard_peripheral/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS/GD/GD32F3x0/Include -ID:/Project/GD32_Project/GD32_CMake_Example/Drivers/CMSIS -ID:/Project/GD32_Project/GD32_CMake_Example/Core/inc -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./printf -ID:/Project/GD32_Project/GD32_CMake_Example/Retarget/./scanf -g -std=c11 -fdiagnostics-color=always -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -ffunction-sections -fdata-sections -Wall -fstack-usage --specs=nano.specs -pipe -Og -DDEBUG -g -funwind-tables -fdiagnostics-color=always -Os -o Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\scanf\\scanf.c.obj -c D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\scanf\\scanf.c",
+  "file": "D:\\Project\\GD32_Project\\GD32_CMake_Example\\Retarget\\scanf\\scanf.c",
+  "output": "Core\\Retarget\\CMakeFiles\\GD32_CMake_Example_Retarget.dir\\scanf\\scanf.c.obj"
+}
+]

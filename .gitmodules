@@ -1,0 +1,6 @@
+[submodule "Retarget/scanf"]
+	path = Retarget/scanf
+	url = https://github.com/hisahi/scanf.git
+[submodule "Retarget/printf"]
+	path = Retarget/printf
+	url = https://github.com/mpaland/printf.git

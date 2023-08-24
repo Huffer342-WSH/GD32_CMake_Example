@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "GD32-Windows",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            //设置编译器路径，影响ms-vscode.cpptools插件的解析，不影编译
+            "compilerPath": "E:\\SDK-Win\\gcc-arm-none-eabi-10.3-2021.10\\bin\\arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
