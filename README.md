@@ -1,5 +1,11 @@
 # GD32 CMake example 
-git clone --recursive https://github.com/Huffer342-WSH/GD32_CMake_Example.git
+
+库包含子模块，请用clone下载或者到release下载
+
+
+`git clone --recursive https://github.com/Huffer342-WSH/GD32_CMake_Example.git
+`
+
 一个串口收发简单例子。
 
 [从零开始搭建工程](/doc//从零开始搭建工程.md)
